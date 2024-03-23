@@ -18,17 +18,15 @@
 
 import { singleSpaPacker } from "./utils";
 import App from "./App";
-import React from "react";
-import ReactDOM from "react-dom/client";
 
-if (!process.env.mode) {
-  require("./index.css");
-  const root = ReactDOM.createRoot(document.getElementById("root"));
-  root.render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  );
-}
+// if (!process.env.mode) {
+//   require("./index.css");
+//   const root = ReactDOM.createRoot(document.getElementById("root"));
+//   root.render(
+//     <React.StrictMode>
+//       <App />
+//     </React.StrictMode>
+//   );
+// }
 const { bootstrap, mount, unmount } = singleSpaPacker(App);
 export { bootstrap, mount, unmount };
