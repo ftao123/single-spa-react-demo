@@ -1,13 +1,9 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { Link } from "react-router-dom";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Link to={"./app1"}>跳转app1</Link>
-      <Link to={"./app2"}>跳转app2</Link>
-      <Link to={"./app3"}>跳转app3</Link>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
