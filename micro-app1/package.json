@@ -59,7 +59,8 @@
     "workbox-webpack-plugin": "^6.4.1"
   },
   "scripts": {
-    "start": "PORT=5001 node scripts/start.js",
+    "start": "PORT=6001 node scripts/start.js",
+    "start:micro": "PORT=5001 mode=micro node scripts/start.js ",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
   },
