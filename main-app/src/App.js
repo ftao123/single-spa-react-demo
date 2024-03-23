@@ -10,9 +10,7 @@ function App() {
       <Link to={"./app3"}>跳转app3</Link>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>我是main-app</p>
         <a
           className="App-link"
           href="https://reactjs.org"

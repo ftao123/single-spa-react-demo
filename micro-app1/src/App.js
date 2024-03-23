@@ -7,9 +7,7 @@ function App(props) {
       <header className="App-header">
         <>{props.data.text}</>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>我是micro-app1</p>
         <a
           className="App-link"
           href="https://reactjs.org"
